@@ -1,4 +1,3 @@
-
 import inquirer from "inquirer";
 import chalk from "chalk";
 let totalMarks = 0;
