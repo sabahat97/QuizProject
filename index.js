@@ -1,9 +1,9 @@
-//shebang #
+#! /usr/bin/env node
 import inquirer from "inquirer";
 import chalk from "chalk";
 let totalMarks = 0;
 console.log(chalk.gray.bold("\t<<<<<<===========================================================>>>>>>\n"));
-console.log(chalk.redBright `\t\t   <<<<==== Wellcome To Syeda Sabahat Quiz ====>>>\n`);
+console.log(chalk.redBright `\t\t\t   <<<<==== Welcome To Quiz ====>>>\n`);
 console.log(chalk.gray.bold("\t<<<<<<===========================================================>>>>>>\n"));
 //Enroll Student;
 const name = await inquirer.prompt([
